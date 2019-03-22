@@ -17,26 +17,7 @@ Design a REST API endpoint that provides auto-complete suggestions for large cit
 * The application should be written in Python and use the Django web framework
 * End result should be deployed on AWS (it provides a free tiers you can use).
 
-## Can I use a database?
-
-If you wish, it's OK to use external systems such as a database, an Elastic index, etc. in your solution. But this is certainly not required to complete the basic requirements of the challenge. Keep in mind that our goal here is to see some code of yours; if you only implement a thin API on top of a DB we won't have much to look at.
-
-Our advice is that if you choose to use an external search system, you had better be doing something really truly awesome with it.
-
-## Bonus
-
-* We love test-driven development and we share the love with developers who apply it
-* Try to design and implement your solution as you would do for real production code. Show us how you create clean, maintainable code that does awesome stuff. Build something that we'd be happy to contribute to. This is not a programming contest where dirty hacks win the game.
-* Documentation and maintainability are a plus
-* We don’t want to know if you can do exactly as asked (or everybody would have the same result). We want to know what you bring to the table when working on a project, what is your secret sauce. More features? Best solution? Thinking outside the box?
-
-## Benefits
-
-* Doing well in this challenge and receiving an offer from Cerebry entitles you to a **guaranteed 200$ bonus** from Cerebry after the first month.
-* Good performance in this challenge positively impacts your offer. We like to reward folks who have demonstrated their skills even before they join us.
-
-
-#### Sample responses
+### Sample responses
 
 These responses are meant to provide guidance. The exact values can vary based on the data source and scoring algorithm
 
@@ -85,7 +66,20 @@ These responses are meant to provide guidance. The exact values can vary based o
 }
 ```
 
-### References
+## Can I use a database?
+
+If you wish, it's OK to use external systems such as a database, an Elastic index, etc. in your solution. But this is certainly not required to complete the basic requirements of the challenge. Keep in mind that our goal here is to see some code of yours; if you only implement a thin API on top of a DB we won't have much to look at.
+
+Our advice is that if you choose to use an external search system, you had better be doing something really truly awesome with it.
+
+## Bonus
+
+* We love test-driven development and we share the love with developers who apply it
+* Try to design and implement your solution as you would do for real production code. Show us how you create clean, maintainable code that does awesome stuff. Build something that we'd be happy to contribute to. This is not a programming contest where dirty hacks win the game.
+* Documentation and maintainability are a plus
+* We don’t want to know if you can do exactly as asked (or everybody would have the same result). We want to know what you bring to the table when working on a project, what is your secret sauce. More features? Best solution? Thinking outside the box?
+
+## References
 
 - Geonames provides city lists Canada and the USA http://download.geonames.org/export/dump/readme.txt
 
@@ -94,3 +88,8 @@ These responses are meant to provide guidance. The exact values can vary based o
 
 Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http://mac.github.com/) and
 [Windows](http://windows.github.com/) that make this easier.
+
+## Benefits
+
+* Doing well in this challenge and receiving an offer from Cerebry entitles you to a **guaranteed 200$ bonus** from Cerebry after the first month.
+* Good performance in this challenge positively impacts your offer. We like to reward folks who have demonstrated their skills even before they join us.
