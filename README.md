@@ -1,9 +1,9 @@
-# Busbud Coding Challenge [![Build Status](https://circleci.com/gh/busbud/coding-challenge-backend-c/tree/master.png?circle-token=6e396821f666083bc7af117113bdf3a67523b2fd)](https://circleci.com/gh/busbud/coding-challenge-backend-c)
+# Cerebry Coding Challenge
+(Inspired by https://github.com/busbud/coding-challenge-backend-c)
 
 ## Requirements
 
-Design an API endpoint that provides auto-complete suggestions for large cities.
-The suggestions should be restricted to cities in the USA and Canada with a population above 5000 people.
+Design a REST API endpoint that provides auto-complete suggestions for large cities.
 
 - the endpoint is exposed at `/suggestions`
 - the partial (or complete) search term is passed as a querystring parameter `q`
@@ -13,9 +13,24 @@ The suggestions should be restricted to cities in the USA and Canada with a popu
     - each suggestion has a score between 0 and 1 (inclusive) indicating confidence in the suggestion (1 is most confident)
     - each suggestion has a name which can be used to disambiguate between similarly named locations
     - each suggestion has a latitude and longitude
-- all functional tests should pass (additional tests may be implemented as necessary).
-- the final application should be [deployed to Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs).
-- feel free to add more features if you like!
+
+## Requirements
+
+* The application should be written in Python and use the Django web framework
+* End result should be deployed on AWS (it provides a free tiers you can use).
+
+## Bonus
+
+* We love test-driven development and we share the love with developers who apply it
+* Try to design and implement your solution as you would do for real production code. Show us how you create clean, maintainable code that does awesome stuff. Build something that we'd be happy to contribute to. This is not a programming contest where dirty hacks win the game.
+* Documentation and maintainability are a plus
+* We don’t want to know if you can do exactly as asked (or everybody would have the same result). We want to know what you bring to the table when working on a project, what is your secret sauce. More features? Best solution? Thinking outside the box?
+
+## Benefits
+
+* Doing well in this challenge and receiving an offer from Cerebry entitles you to a **guaranteed 200$ bonus** from Cerebry after the first month.
+* Good performance in this challenge positively impacts your offer. We like to reward folks who have demonstrated their skills even before they join us.
+
 
 #### Sample responses
 
@@ -66,64 +81,12 @@ These responses are meant to provide guidance. The exact values can vary based o
 }
 ```
 
-
-### Non-functional
-
-- All code should be written in Javascript
-- Mitigations to handle high levels of traffic should be implemented
-- Challenge is submitted as pull request against this repo ([fork it](https://help.github.com/articles/fork-a-repo/) and [create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)).
-- Documentation and maintainability is a plus
-
 ### References
 
 - Geonames provides city lists Canada and the USA http://download.geonames.org/export/dump/readme.txt
-- http://www.nodejs.org/
-- http://ejohn.org/blog/node-js-stream-playground/
 
 
 ## Getting Started
 
 Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http://mac.github.com/) and
 [Windows](http://windows.github.com/) that make this easier.
-
-### Setting up a Nodejs environment
-
-Get started by installing [nodejs](http://www.nodejs.org).
-
-For OS X users, use [Homebrew](http://brew.sh) and `brew install nvm`
-
-Once that's done, from the project directory, run
-
-```
-nvm use
-```
-
-### Setting up the project
-
-In the project directory run
-
-```
-npm install
-```
-
-### Running the tests
-
-The test suite can be run with
-
-```
-npm test
-```
-
-### Starting the application
-
-To start a local server run
-
-```
-PORT=3456 npm start
-```
-
-which should produce output similar to
-
-```
-Server running at http://127.0.0.1:3456/suggestions
-```
