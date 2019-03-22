@@ -17,7 +17,7 @@ Design a REST API endpoint that provides auto-complete suggestions for large cit
 * The application should be written in Python and use the Django web framework
 * End result should be deployed on AWS (it provides a free tiers you can use).
 
-### Sample responses
+## Sample responses
 
 These responses are meant to provide guidance. The exact values can vary based on the data source and scoring algorithm
 
