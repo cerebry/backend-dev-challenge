@@ -1,8 +1,6 @@
 # Cerebry Coding Challenge
 (Inspired by https://github.com/busbud/coding-challenge-backend-c)
 
-## Requirements
-
 Design a REST API endpoint that provides auto-complete suggestions for large cities.
 
 - the endpoint is exposed at `/suggestions`
