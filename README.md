@@ -1,5 +1,5 @@
 # Cerebry Coding Challenge
-(Inspired by https://github.com/busbud/coding-challenge-backend-c)
+(inspired by https://github.com/busbud/coding-challenge-backend-c)
 
 Design a REST API endpoint that provides auto-complete suggestions for large cities.
 
@@ -16,6 +16,12 @@ Design a REST API endpoint that provides auto-complete suggestions for large cit
 
 * The application should be written in Python and use the Django web framework
 * End result should be deployed on AWS (it provides a free tiers you can use).
+
+## Can I use a database?
+
+If you wish, it's OK to use external systems such as a database, an Elastic index, etc. in your solution. But this is certainly not required to complete the basic requirements of the challenge. Keep in mind that our goal here is to see some code of yours; if you only implement a thin API on top of a DB we won't have much to look at.
+
+Our advice is that if you choose to use an external search system, you had better be doing something really truly awesome with it.
 
 ## Bonus
 
